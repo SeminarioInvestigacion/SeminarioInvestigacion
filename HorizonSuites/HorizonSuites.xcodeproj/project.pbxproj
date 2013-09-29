@@ -10,6 +10,7 @@
 		404E8AA817F7E2BB00672F2F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404E8AA717F7E2BB00672F2F /* MapKit.framework */; };
 		404E8AAA17F7E2CC00672F2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404E8AA917F7E2CC00672F2F /* CoreLocation.framework */; };
 		404E8AC817F7E55A00672F2F /* .localized in Resources */ = {isa = PBXBuildFile; fileRef = 404E8AC717F7E55A00672F2F /* .localized */; };
+		404E8ACB17F7EA1400672F2F /* UbicacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404E8ACA17F7EA1400672F2F /* UbicacionViewController.m */; };
 		D2A3766917F62C8A00ACB6C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A3766817F62C8A00ACB6C9 /* UIKit.framework */; };
 		D2A3766B17F62C8A00ACB6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A3766A17F62C8A00ACB6C9 /* Foundation.framework */; };
 		D2A3766D17F62C8A00ACB6C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A3766C17F62C8A00ACB6C9 /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 		404E8AA717F7E2BB00672F2F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		404E8AA917F7E2CC00672F2F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		404E8AC717F7E55A00672F2F /* .localized */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .localized; sourceTree = "<group>"; };
+		404E8AC917F7EA1400672F2F /* UbicacionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UbicacionViewController.h; sourceTree = "<group>"; };
+		404E8ACA17F7EA1400672F2F /* UbicacionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UbicacionViewController.m; sourceTree = "<group>"; };
 		D2A3766517F62C8A00ACB6C9 /* HorizonSuites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizonSuites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A3766817F62C8A00ACB6C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D2A3766A17F62C8A00ACB6C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -134,6 +137,8 @@
 				D2A3768317F62C8B00ACB6C9 /* ViewController.h */,
 				D2A3768417F62C8B00ACB6C9 /* ViewController.m */,
 				D2A3766F17F62C8A00ACB6C9 /* Supporting Files */,
+				404E8AC917F7EA1400672F2F /* UbicacionViewController.h */,
+				404E8ACA17F7EA1400672F2F /* UbicacionViewController.m */,
 			);
 			path = HorizonSuites;
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 				D2A3768517F62C8B00ACB6C9 /* ViewController.m in Sources */,
 				D2A3769717F6496A00ACB6C9 /* HomeViewController.m in Sources */,
 				D2A3769A17F67AEC00ACB6C9 /* ServiciosViewController.m in Sources */,
+				404E8ACB17F7EA1400672F2F /* UbicacionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

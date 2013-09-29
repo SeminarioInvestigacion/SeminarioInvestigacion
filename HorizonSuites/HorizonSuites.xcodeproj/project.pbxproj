@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404E8AA817F7E2BB00672F2F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404E8AA717F7E2BB00672F2F /* MapKit.framework */; };
+		404E8AAA17F7E2CC00672F2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404E8AA917F7E2CC00672F2F /* CoreLocation.framework */; };
+		404E8AC817F7E55A00672F2F /* .localized in Resources */ = {isa = PBXBuildFile; fileRef = 404E8AC717F7E55A00672F2F /* .localized */; };
 		D2A3766917F62C8A00ACB6C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A3766817F62C8A00ACB6C9 /* UIKit.framework */; };
 		D2A3766B17F62C8A00ACB6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A3766A17F62C8A00ACB6C9 /* Foundation.framework */; };
 		D2A3766D17F62C8A00ACB6C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A3766C17F62C8A00ACB6C9 /* CoreGraphics.framework */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		404E8AA717F7E2BB00672F2F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		404E8AA917F7E2CC00672F2F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		404E8AC717F7E55A00672F2F /* .localized */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .localized; sourceTree = "<group>"; };
 		D2A3766517F62C8A00ACB6C9 /* HorizonSuites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizonSuites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A3766817F62C8A00ACB6C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D2A3766A17F62C8A00ACB6C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404E8AAA17F7E2CC00672F2F /* CoreLocation.framework in Frameworks */,
+				404E8AA817F7E2BB00672F2F /* MapKit.framework in Frameworks */,
 				D2A3766917F62C8A00ACB6C9 /* UIKit.framework in Frameworks */,
 				D2A3766B17F62C8A00ACB6C9 /* Foundation.framework in Frameworks */,
 				D2A3766D17F62C8A00ACB6C9 /* CoreGraphics.framework in Frameworks */,
@@ -69,9 +77,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		404E8AC617F7E55A00672F2F /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				404E8AC717F7E55A00672F2F /* .localized */,
+			);
+			name = Documents;
+			path = ../../../../Documents;
+			sourceTree = "<group>";
+		};
 		D2A3765C17F62C8A00ACB6C9 = {
 			isa = PBXGroup;
 			children = (
+				404E8AA917F7E2CC00672F2F /* CoreLocation.framework */,
+				404E8AA717F7E2BB00672F2F /* MapKit.framework */,
 				D2A3768B17F63A4400ACB6C9 /* images.jpeg */,
 				D2A3768C17F63A4400ACB6C9 /* icono-facebook.png */,
 				D2A3768D17F63A4400ACB6C9 /* twitter_icon.png */,
@@ -107,6 +126,7 @@
 				D2A3769517F6496A00ACB6C9 /* HomeViewController.h */,
 				D2A3769617F6496A00ACB6C9 /* HomeViewController.m */,
 				D2A3769817F67AEC00ACB6C9 /* ServiciosViewController.h */,
+				404E8AC617F7E55A00672F2F /* Documents */,
 				D2A3769917F67AEC00ACB6C9 /* ServiciosViewController.m */,
 				D2A3767717F62C8A00ACB6C9 /* AppDelegate.h */,
 				D2A3767817F62C8A00ACB6C9 /* AppDelegate.m */,
@@ -193,6 +213,7 @@
 				D2A3769217F63A4400ACB6C9 /* twitter_icon.png in Resources */,
 				D2A3769317F63A4400ACB6C9 /* logotipo.jpg in Resources */,
 				D2A3769417F63A4400ACB6C9 /* logotipo 2.png in Resources */,
+				404E8AC817F7E55A00672F2F /* .localized in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +351,7 @@
 				D2A3768A17F62C8B00ACB6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

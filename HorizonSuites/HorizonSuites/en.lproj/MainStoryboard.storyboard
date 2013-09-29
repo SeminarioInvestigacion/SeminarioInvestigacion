@@ -174,7 +174,16 @@
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="JVJ-RL-89b">
                                 <items>
-                                    <barButtonItem title="Restaurantes" id="5V0-mp-t7p"/>
+                                    <barButtonItem title="Bar" id="5V0-mp-t7p">
+                                        <connections>
+                                            <action selector="toolbarButtonPress:" destination="UYc-gp-E4r" id="Sqg-XX-7UO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Cafe" id="k4q-JL-qGn">
+                                        <connections>
+                                            <action selector="toolbarButtonPress:" destination="UYc-gp-E4r" id="kbQ-KK-BAy"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="J5m-xf-G6X">
@@ -331,6 +340,7 @@
         <class className="UbicacionViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/UbicacionViewController.h"/>
             <relationships>
+                <relationship kind="action" name="toolbarButtonPress:"/>
                 <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
             </relationships>
         </class>

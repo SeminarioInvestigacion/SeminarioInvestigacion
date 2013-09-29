@@ -10,12 +10,17 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-#define kGOOGLE_API_KEY @"AIzaSyBqe6t1mOz7nd7qyZPPCaSlGAPMgcd_v3k"
+#define kGOOGLE_API_KEY @"AIzaSyBmmmUy4jrp6gAxQGlzWz4TP_ikmXjCaas"
+#define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
 @interface UbicacionViewController : UIViewController
 
 {
+ 
     CLLocationManager *locationManager;
+    CLLocationCoordinate2D currentCentre;
+    int currenDist;
+    
 }
 
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;

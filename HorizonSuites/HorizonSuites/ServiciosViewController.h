@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ServiciosViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 
 @end

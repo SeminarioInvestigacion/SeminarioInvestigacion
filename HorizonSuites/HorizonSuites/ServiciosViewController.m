@@ -13,6 +13,8 @@
 @end
 
 @implementation ServiciosViewController
+NSArray *tableData;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +28,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+     tableData = [NSArray arrayWithObjects:
+                  @"Restaurante de Especialidades", @"Room Service", @"Bar", @"Salones de Conferencia", @"Piscina Climatizada", @"Gimnasio", @"Lavanderia", @"Venta de Regalos y Revistas", @"Centro de Negocios e Internet", @"Renta de Autos", @"Agencia de Viajes", @"Intercambio de Dinero", @"Transporte Aereopuerto-Hotel", @"Seguridad  24h", @"Cuidados Medicos y Ambulancia", nil];
+    
     [self.scroll setScrollEnabled:YES];
 	// Do any additional setup after loading the view.
 }
@@ -35,5 +40,26 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [tableData count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *simpleTableIdentifier = @"SimpleTableItem";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
+    }
+    
+    cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
+    return cell;
+}
+
+
 
 @end

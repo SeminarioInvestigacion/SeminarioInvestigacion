@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ServiciosViewController : UIViewController
+@interface ServiciosViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property (strong, nonatomic) IBOutlet UIScrollView *scroll;
+
 
 @end

@@ -17,11 +17,24 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="O4o-UE-xmZ">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="460" id="iG9-YG-DKl"/>
+                                    <constraint firstAttribute="width" constant="330" id="sHE-Qv-4aB"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="xdJ-ny-gF7" id="RCQ-pc-qIL"/>
+                                    <outlet property="delegate" destination="xdJ-ny-gF7" id="y8e-sr-uJT"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.71758237089999999" green="0.058193482849999999" blue="0.12600256439999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="O4o-UE-xmZ" firstAttribute="bottom" secondItem="3do-Sr-ysv" secondAttribute="bottom" type="default" id="B2N-qS-ZiI"/>
                             <constraint firstItem="SHt-P2-DDP" firstAttribute="leading" secondItem="3do-Sr-ysv" secondAttribute="leading" constant="132" id="YlI-xj-JXC"/>
-                            <constraint firstItem="SHt-P2-DDP" firstAttribute="top" secondItem="3do-Sr-ysv" secondAttribute="top" constant="10" id="ybL-h6-JAn"/>
+                            <constraint firstItem="O4o-UE-xmZ" firstAttribute="leading" secondItem="3do-Sr-ysv" secondAttribute="leading" type="default" id="ba6-K9-Kq2"/>
+                            <constraint firstItem="O4o-UE-xmZ" firstAttribute="top" secondItem="SHt-P2-DDP" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="eDF-lB-EpM"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Servicios" id="pr6-cP-d1s"/>

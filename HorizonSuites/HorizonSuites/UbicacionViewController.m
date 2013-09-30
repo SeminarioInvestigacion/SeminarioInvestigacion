@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.mapView.delegate=self;
     
     //nos asegura ver nuestra ubicacion
     [self.mapView setShowsUserLocation:YES];
@@ -52,6 +53,7 @@
 
 
 -(void) queryGooglePlaces: (NSString *) googleType{
+
     NSString *url = [NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/search/json?location=%f,%f&radius=%@&types=%@&sensor=true&key=%@", currentCentre.latitude, currentCentre.longitude, [NSString stringWithFormat:@"%i", currenDist], googleType, kGOOGLE_API_KEY];
     
     NSURL *googleRequestUrl = [NSURL URLWithString:url];
@@ -60,7 +62,7 @@
         NSData* data = [NSData dataWithContentsOfURL: googleRequestUrl];
         [self performSelectorOnMainThread:@selector(fetchedData:) withObject:data waitUntilDone:YES];
     });
-
+    NSLog(@"Dir: %@", url);
 }
 
 -(void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {

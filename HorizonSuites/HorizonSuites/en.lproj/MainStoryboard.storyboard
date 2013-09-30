@@ -17,129 +17,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="scroll" translatesAutoresizingMaskIntoConstraints="NO" id="avz-e8-hjk">
-                                <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRf-3w-cyp">
-                                        <string key="text">Restaurante de Especialidades
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoU-ot-ilG">
-                                        <string key="text">Room Service
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Bar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11q-lt-lVZ">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1V-UO-IGi">
-                                        <string key="text">Salones de Conferencia
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4W-yx-T8d">
-                                        <string key="text">Piscina Climatizada
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Gimnasio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCJ-Ye-qxN">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Lavanderia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehU-Rq-K3I">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2v-hG-rOe">
-                                        <string key="text">Venta de Regalos y Revistas
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV5-C5-hgD">
-                                        <string key="text">Centro de Negocios e Internet
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m21-ui-GMk">
-                                        <string key="text">Renta de Autos
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPu-v6-j7O">
-                                        <string key="text">Agencia de Viajes
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Y Mas.." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IC7-08-UQs">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="m21-ui-GMk" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="1Oa-Zg-RjH"/>
-                                    <constraint firstItem="IC7-08-UQs" firstAttribute="top" secondItem="avz-e8-hjk" secondAttribute="top" constant="366" id="2vu-t9-wZw"/>
-                                    <constraint firstAttribute="trailing" secondItem="rRf-3w-cyp" secondAttribute="trailing" constant="59" id="3MX-0F-jrx"/>
-                                    <constraint firstItem="OPu-v6-j7O" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="7Eo-oC-3rv"/>
-                                    <constraint firstItem="qoU-ot-ilG" firstAttribute="top" secondItem="rRf-3w-cyp" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="7Fw-9Z-hEE"/>
-                                    <constraint firstItem="x2v-hG-rOe" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="82Y-EA-SI2"/>
-                                    <constraint firstItem="gV5-C5-hgD" firstAttribute="top" secondItem="x2v-hG-rOe" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="90o-QA-dgq"/>
-                                    <constraint firstItem="gV5-C5-hgD" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="CgS-dh-qb5"/>
-                                    <constraint firstItem="qoU-ot-ilG" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Fns-LF-WBg"/>
-                                    <constraint firstItem="m21-ui-GMk" firstAttribute="top" secondItem="gV5-C5-hgD" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="GhF-Gw-ymm"/>
-                                    <constraint firstItem="x2v-hG-rOe" firstAttribute="top" secondItem="avz-e8-hjk" secondAttribute="top" constant="237" id="HBi-ZV-JlH"/>
-                                    <constraint firstItem="rRf-3w-cyp" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="IbJ-R8-RZE"/>
-                                    <constraint firstItem="y4W-yx-T8d" firstAttribute="top" secondItem="a1V-UO-IGi" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="LJo-Qb-CFu"/>
-                                    <constraint firstItem="ehU-Rq-K3I" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="U5U-sI-9VV"/>
-                                    <constraint firstItem="x2v-hG-rOe" firstAttribute="bottom" secondItem="avz-e8-hjk" secondAttribute="bottom" type="default" id="f82-XE-eZC"/>
-                                    <constraint firstItem="11q-lt-lVZ" firstAttribute="top" secondItem="qoU-ot-ilG" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ghs-xj-JMn"/>
-                                    <constraint firstItem="a1V-UO-IGi" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="han-Jn-Ycm"/>
-                                    <constraint firstItem="IC7-08-UQs" firstAttribute="centerX" secondItem="avz-e8-hjk" secondAttribute="centerX" type="default" id="i0f-qh-1B8"/>
-                                    <constraint firstItem="a1V-UO-IGi" firstAttribute="top" secondItem="11q-lt-lVZ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="jus-zl-QpN"/>
-                                    <constraint firstItem="fCJ-Ye-qxN" firstAttribute="top" secondItem="y4W-yx-T8d" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="l22-CU-aXg"/>
-                                    <constraint firstItem="ehU-Rq-K3I" firstAttribute="top" secondItem="avz-e8-hjk" secondAttribute="top" constant="203" id="mxO-Gv-5pI"/>
-                                    <constraint firstItem="11q-lt-lVZ" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="qpT-Qy-vSz"/>
-                                    <constraint firstItem="y4W-yx-T8d" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="u4b-L7-D7P"/>
-                                    <constraint firstItem="fCJ-Ye-qxN" firstAttribute="leading" secondItem="avz-e8-hjk" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="uhT-vN-OM0"/>
-                                    <constraint firstItem="rRf-3w-cyp" firstAttribute="top" secondItem="avz-e8-hjk" secondAttribute="top" constant="28" id="v7Q-l1-PBK"/>
-                                    <constraint firstItem="OPu-v6-j7O" firstAttribute="top" secondItem="m21-ui-GMk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="yBR-UD-otW"/>
-                                </constraints>
-                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.71758237089999999" green="0.058193482849999999" blue="0.12600256439999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="avz-e8-hjk" firstAttribute="trailing" secondItem="3do-Sr-ysv" secondAttribute="trailing" type="default" id="RUe-YM-Vsq"/>
                             <constraint firstItem="SHt-P2-DDP" firstAttribute="leading" secondItem="3do-Sr-ysv" secondAttribute="leading" constant="132" id="YlI-xj-JXC"/>
-                            <constraint firstItem="avz-e8-hjk" firstAttribute="leading" secondItem="3do-Sr-ysv" secondAttribute="leading" type="default" id="ndJ-Oa-Lvr"/>
-                            <constraint firstAttribute="bottom" secondItem="avz-e8-hjk" secondAttribute="bottom" constant="202" id="tEr-ZM-vb4"/>
-                            <constraint firstItem="avz-e8-hjk" firstAttribute="top" secondItem="SHt-P2-DDP" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="wyA-nW-k9J"/>
                             <constraint firstItem="SHt-P2-DDP" firstAttribute="top" secondItem="3do-Sr-ysv" secondAttribute="top" constant="10" id="ybL-h6-JAn"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Servicios" id="pr6-cP-d1s"/>
-                    <connections>
-                        <outlet property="scroll" destination="avz-e8-hjk" id="fTG-uc-UlT"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VWf-nj-bkw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -52,6 +52,7 @@
 }
 
 
+
 -(void) queryGooglePlaces: (NSString *) googleType{
 
     NSString *url = [NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/search/json?location=%f,%f&radius=%@&types=%@&sensor=true&key=%@", currentCentre.latitude, currentCentre.longitude, [NSString stringWithFormat:@"%i", currenDist], googleType, kGOOGLE_API_KEY];
@@ -65,6 +66,34 @@
     NSLog(@"Dir: %@", url);
 }
 
+-(void)plotPositions:(NSArray *)data {
+    // 1 - Remove any existing custom annotations but not the user location blue dot.
+    for (id<MKAnnotation> annotation in self.mapView.annotations) {
+        if ([annotation isKindOfClass:[MapPoint class]]) {
+            [self.mapView removeAnnotation:annotation];
+        }
+    }
+    // 2 - Loop through the array of places returned from the Google API.
+    for (int i=0; i<[data count]; i++) {
+        //Retrieve the NSDictionary object in each index of the array.
+        NSDictionary* place = [data objectAtIndex:i];
+        // 3 - There is a specific NSDictionary object that gives us the location info.
+        NSDictionary *geo = [place objectForKey:@"geometry"];
+        // Get the lat and long for the location.
+        NSDictionary *loc = [geo objectForKey:@"location"];
+        // 4 - Get your name and address info for adding to a pin.
+        NSString *name=[place objectForKey:@"name"];
+        NSString *vicinity=[place objectForKey:@"vicinity"];
+        // Create a special variable to hold this coordinate info.
+        CLLocationCoordinate2D placeCoord;
+        // Set the lat and long.
+        placeCoord.latitude=[[loc objectForKey:@"lat"] doubleValue];
+        placeCoord.longitude=[[loc objectForKey:@"lng"] doubleValue];
+        // 5 - Create a new annotation.
+        MapPoint *placeObject = [[MapPoint alloc] initWithName:name address:vicinity coordinate:placeCoord];
+        [self.mapView addAnnotation:placeObject];
+    }
+}
 -(void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
     //Get the east and west points on the map so you can calculate the distance (zoom level) of the current map view.
     MKMapRect mRect = self.mapView.visibleMapRect;
@@ -77,6 +106,7 @@
     //Set your current center point on the map instance variable.
     currentCentre = self.mapView.centerCoordinate;
 }
+
 -(void)fetchedData:(NSData *)responseData {
     //parse out the json data
     NSError* error;
@@ -91,10 +121,28 @@
     
     //Write out the data to the console.
     NSLog(@"Google Data: %@", places);
+    
+    [self plotPositions:places];
 }
 
-
-
+-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {
+    // Define your reuse identifier.
+    static NSString *identifier = @"MapPoint";
+    
+    if ([annotation isKindOfClass:[MapPoint class]]) {
+        MKPinAnnotationView *annotationView = (MKPinAnnotationView *) [self.mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
+        if (annotationView == nil) {
+            annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
+        } else {
+            annotationView.annotation = annotation;
+        }
+        annotationView.enabled = YES;
+        annotationView.canShowCallout = YES;
+        annotationView.animatesDrop = YES;
+        return annotationView;
+    }
+    return nil;
+}
 - (IBAction)toolbarButtonPress:(id)sender {
     UIBarButtonItem *button = (UIBarButtonItem *)sender;
     NSString *buttonTitle = [button.title lowercaseString];

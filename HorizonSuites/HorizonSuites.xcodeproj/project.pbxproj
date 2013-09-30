@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402F32DE17F90860002AF8C8 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 402F32DD17F90860002AF8C8 /* MapPoint.m */; };
 		404E8AA817F7E2BB00672F2F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404E8AA717F7E2BB00672F2F /* MapKit.framework */; };
 		404E8AAA17F7E2CC00672F2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404E8AA917F7E2CC00672F2F /* CoreLocation.framework */; };
 		404E8AC817F7E55A00672F2F /* .localized in Resources */ = {isa = PBXBuildFile; fileRef = 404E8AC717F7E55A00672F2F /* .localized */; };
@@ -32,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		402F32DC17F90860002AF8C8 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		402F32DD17F90860002AF8C8 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
 		404E8AA717F7E2BB00672F2F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		404E8AA917F7E2CC00672F2F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		404E8AC717F7E55A00672F2F /* .localized */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .localized; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				D2A3766F17F62C8A00ACB6C9 /* Supporting Files */,
 				404E8AC917F7EA1400672F2F /* UbicacionViewController.h */,
 				404E8ACA17F7EA1400672F2F /* UbicacionViewController.m */,
+				402F32DC17F90860002AF8C8 /* MapPoint.h */,
+				402F32DD17F90860002AF8C8 /* MapPoint.m */,
 			);
 			path = HorizonSuites;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 				D2A3769717F6496A00ACB6C9 /* HomeViewController.m in Sources */,
 				D2A3769A17F67AEC00ACB6C9 /* ServiciosViewController.m in Sources */,
 				404E8ACB17F7EA1400672F2F /* UbicacionViewController.m in Sources */,
+				402F32DE17F90860002AF8C8 /* MapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

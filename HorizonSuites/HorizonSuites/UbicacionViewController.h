@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import "MapPoint.h"
 
 //#define kGOOGLE_API_KEY @"AIzaSyCizq7QvPED3UkztXhCs1BTqyyFoRWRYWI"
 #define kGOOGLE_API_KEY @"AIzaSyBmmmUy4jrp6gAxQGlzWz4TP_ikmXjCaas"

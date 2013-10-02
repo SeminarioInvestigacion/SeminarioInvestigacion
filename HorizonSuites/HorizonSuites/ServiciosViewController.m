@@ -14,6 +14,8 @@
 
 @implementation ServiciosViewController
 NSArray *tableData;
+NSArray *thumbnails;
+
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -29,7 +31,10 @@ NSArray *tableData;
 {
     [super viewDidLoad];
      tableData = [NSArray arrayWithObjects:
-                  @"Restaurante de Especialidades", @"Room Service", @"Bar", @"Salones de Conferencia", @"Piscina Climatizada", @"Gimnasio", @"Lavanderia", @"Venta de Regalos y Revistas", @"Centro de Negocios e Internet", @"Renta de Autos", @"Agencia de Viajes", @"Intercambio de Dinero", @"Transporte Aereopuerto-Hotel", @"Seguridad  24h", @"Cuidados Medicos y Ambulancia", nil];
+                  @"Restaurante", @"Room Service", @"Bar", @"Salones de Conferencia", @"Piscina Climatizada", @"Gimnasio", @"Lavanderia", @"Venta de Regalos y Revistas", @"Centro de Negocios e Internet", @"Renta de Autos", @"Agencia de Viajes", @"Intercambio de Dinero", @"Transporte Aereopuerto-Hotel", @"Seguridad  24h", @"Cuidados Medicos y Ambulancia", nil];
+    
+    thumbnails = [NSArray arrayWithObjects:
+                 @"restaurante.jpeg", @"room_Service.jpeg", @"bar.jpeg", @"salon.jpeg", @"piscina.jpeg", @"gym.jpeg", @"lavanderia.jpeg", @"regalo.jpeg", @"internet.jpeg", @"autos.jpeg", @"agencia.jpeg", @"intercambio.jpg", @"transporte.jpeg", @"seguridad.jpeg", @"medico.jpeg", nil];
     
     [self.scroll setScrollEnabled:YES];
 	// Do any additional setup after loading the view.
@@ -57,7 +62,11 @@ NSArray *tableData;
     }
     
     cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
+    cell.imageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
+
     return cell;
+  
+
 }
 
 

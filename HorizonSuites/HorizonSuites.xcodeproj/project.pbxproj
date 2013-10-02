@@ -30,6 +30,21 @@
 		D2A3769417F63A4400ACB6C9 /* logotipo 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A3768F17F63A4400ACB6C9 /* logotipo 2.png */; };
 		D2A3769717F6496A00ACB6C9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3769617F6496A00ACB6C9 /* HomeViewController.m */; };
 		D2A3769A17F67AEC00ACB6C9 /* ServiciosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3769917F67AEC00ACB6C9 /* ServiciosViewController.m */; };
+		D2FFD58317FC79170012D37A /* medico.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57417FC79170012D37A /* medico.jpeg */; };
+		D2FFD58417FC79170012D37A /* seguridad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57517FC79170012D37A /* seguridad.jpeg */; };
+		D2FFD58517FC79170012D37A /* transporte.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57617FC79170012D37A /* transporte.jpeg */; };
+		D2FFD58617FC79170012D37A /* intercambio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57717FC79170012D37A /* intercambio.jpg */; };
+		D2FFD58717FC79170012D37A /* agencia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57817FC79170012D37A /* agencia.jpeg */; };
+		D2FFD58817FC79170012D37A /* autos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57917FC79170012D37A /* autos.jpeg */; };
+		D2FFD58917FC79170012D37A /* internet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57A17FC79170012D37A /* internet.jpeg */; };
+		D2FFD58A17FC79170012D37A /* regalo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57B17FC79170012D37A /* regalo.jpeg */; };
+		D2FFD58B17FC79170012D37A /* lavanderia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57C17FC79170012D37A /* lavanderia.jpeg */; };
+		D2FFD58C17FC79170012D37A /* gym.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57D17FC79170012D37A /* gym.jpeg */; };
+		D2FFD58D17FC79170012D37A /* piscina.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57E17FC79170012D37A /* piscina.jpeg */; };
+		D2FFD58E17FC79170012D37A /* salon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57F17FC79170012D37A /* salon.jpeg */; };
+		D2FFD58F17FC79170012D37A /* bar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD58017FC79170012D37A /* bar.jpeg */; };
+		D2FFD59017FC79170012D37A /* room_Service.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD58117FC79170012D37A /* room_Service.jpeg */; };
+		D2FFD59117FC79170012D37A /* restaurante.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD58217FC79170012D37A /* restaurante.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +80,21 @@
 		D2A3769617F6496A00ACB6C9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
 		D2A3769817F67AEC00ACB6C9 /* ServiciosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiciosViewController.h; sourceTree = "<group>"; };
 		D2A3769917F67AEC00ACB6C9 /* ServiciosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiciosViewController.m; sourceTree = "<group>"; };
+		D2FFD57417FC79170012D37A /* medico.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medico.jpeg; path = thumbnails/medico.jpeg; sourceTree = "<group>"; };
+		D2FFD57517FC79170012D37A /* seguridad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = seguridad.jpeg; path = thumbnails/seguridad.jpeg; sourceTree = "<group>"; };
+		D2FFD57617FC79170012D37A /* transporte.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = transporte.jpeg; path = thumbnails/transporte.jpeg; sourceTree = "<group>"; };
+		D2FFD57717FC79170012D37A /* intercambio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = intercambio.jpg; path = thumbnails/intercambio.jpg; sourceTree = "<group>"; };
+		D2FFD57817FC79170012D37A /* agencia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = agencia.jpeg; path = thumbnails/agencia.jpeg; sourceTree = "<group>"; };
+		D2FFD57917FC79170012D37A /* autos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = autos.jpeg; path = thumbnails/autos.jpeg; sourceTree = "<group>"; };
+		D2FFD57A17FC79170012D37A /* internet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = internet.jpeg; path = thumbnails/internet.jpeg; sourceTree = "<group>"; };
+		D2FFD57B17FC79170012D37A /* regalo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = regalo.jpeg; path = thumbnails/regalo.jpeg; sourceTree = "<group>"; };
+		D2FFD57C17FC79170012D37A /* lavanderia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lavanderia.jpeg; path = thumbnails/lavanderia.jpeg; sourceTree = "<group>"; };
+		D2FFD57D17FC79170012D37A /* gym.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gym.jpeg; path = thumbnails/gym.jpeg; sourceTree = "<group>"; };
+		D2FFD57E17FC79170012D37A /* piscina.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = piscina.jpeg; path = thumbnails/piscina.jpeg; sourceTree = "<group>"; };
+		D2FFD57F17FC79170012D37A /* salon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = salon.jpeg; path = thumbnails/salon.jpeg; sourceTree = "<group>"; };
+		D2FFD58017FC79170012D37A /* bar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bar.jpeg; path = thumbnails/bar.jpeg; sourceTree = "<group>"; };
+		D2FFD58117FC79170012D37A /* room_Service.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = room_Service.jpeg; path = thumbnails/room_Service.jpeg; sourceTree = "<group>"; };
+		D2FFD58217FC79170012D37A /* restaurante.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = restaurante.jpeg; path = thumbnails/restaurante.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +125,7 @@
 		D2A3765C17F62C8A00ACB6C9 = {
 			isa = PBXGroup;
 			children = (
+				D2FFD59217FC79220012D37A /* thumbnails */,
 				404E8AA917F7E2CC00672F2F /* CoreLocation.framework */,
 				404E8AA717F7E2BB00672F2F /* MapKit.framework */,
 				D2A3768B17F63A4400ACB6C9 /* images.jpeg */,
@@ -162,6 +193,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D2FFD59217FC79220012D37A /* thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				D2FFD57417FC79170012D37A /* medico.jpeg */,
+				D2FFD57517FC79170012D37A /* seguridad.jpeg */,
+				D2FFD57617FC79170012D37A /* transporte.jpeg */,
+				D2FFD57717FC79170012D37A /* intercambio.jpg */,
+				D2FFD57817FC79170012D37A /* agencia.jpeg */,
+				D2FFD57917FC79170012D37A /* autos.jpeg */,
+				D2FFD57A17FC79170012D37A /* internet.jpeg */,
+				D2FFD57B17FC79170012D37A /* regalo.jpeg */,
+				D2FFD57C17FC79170012D37A /* lavanderia.jpeg */,
+				D2FFD57D17FC79170012D37A /* gym.jpeg */,
+				D2FFD57E17FC79170012D37A /* piscina.jpeg */,
+				D2FFD57F17FC79170012D37A /* salon.jpeg */,
+				D2FFD58017FC79170012D37A /* bar.jpeg */,
+				D2FFD58117FC79170012D37A /* room_Service.jpeg */,
+				D2FFD58217FC79170012D37A /* restaurante.jpeg */,
+			);
+			name = thumbnails;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,6 +277,21 @@
 				D2A3769317F63A4400ACB6C9 /* logotipo.jpg in Resources */,
 				D2A3769417F63A4400ACB6C9 /* logotipo 2.png in Resources */,
 				404E8AC817F7E55A00672F2F /* .localized in Resources */,
+				D2FFD58317FC79170012D37A /* medico.jpeg in Resources */,
+				D2FFD58417FC79170012D37A /* seguridad.jpeg in Resources */,
+				D2FFD58517FC79170012D37A /* transporte.jpeg in Resources */,
+				D2FFD58617FC79170012D37A /* intercambio.jpg in Resources */,
+				D2FFD58717FC79170012D37A /* agencia.jpeg in Resources */,
+				D2FFD58817FC79170012D37A /* autos.jpeg in Resources */,
+				D2FFD58917FC79170012D37A /* internet.jpeg in Resources */,
+				D2FFD58A17FC79170012D37A /* regalo.jpeg in Resources */,
+				D2FFD58B17FC79170012D37A /* lavanderia.jpeg in Resources */,
+				D2FFD58C17FC79170012D37A /* gym.jpeg in Resources */,
+				D2FFD58D17FC79170012D37A /* piscina.jpeg in Resources */,
+				D2FFD58E17FC79170012D37A /* salon.jpeg in Resources */,
+				D2FFD58F17FC79170012D37A /* bar.jpeg in Resources */,
+				D2FFD59017FC79170012D37A /* room_Service.jpeg in Resources */,
+				D2FFD59117FC79170012D37A /* restaurante.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

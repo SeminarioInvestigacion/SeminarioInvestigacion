@@ -7,6 +7,7 @@
 //
 
 #import "ServiciosViewController.h"
+#import "SimpleTableCell.h"
 
 @interface ServiciosViewController ()
 
@@ -53,20 +54,36 @@ NSArray *thumbnails;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *simpleTableIdentifier = @"SimpleTableItem";
+    static NSString *simpleTableIdentifier = @"SimpleTableCell";
+
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    SimpleTableCell *cell = (SimpleTableCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    
+   // UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
     
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
+       // cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"SimpleTableCell" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
+   
+    
     }
     
-    cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
-    cell.imageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
+    //cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
+    //cell.imageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
 
+    cell.label_nombre_servicio.text = [tableData objectAtIndex:indexPath.row];
+    cell.image_servicio.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
+   
+    
     return cell;
   
 
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 60;
 }
 
 

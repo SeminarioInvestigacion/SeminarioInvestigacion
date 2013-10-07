@@ -302,7 +302,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WLk-rp-1Vp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="200" y="744"/>
+            <point key="canvasLocation" x="-28" y="716"/>
         </scene>
         <!--Ubicacion View Controller - Ubicacion-->
         <scene sceneID="2ai-lr-u4V">
@@ -462,6 +462,51 @@
         <image name="logotipo 2.png" width="143" height="82"/>
         <image name="twitter_icon.png" width="50" height="50"/>
     </resources>
+    <classes>
+        <class className="HomeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="cargar:"/>
+                <relationship kind="outlet" name="imagen" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="logo" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ReservarViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ReservarViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="Action_aceptar:"/>
+                <relationship kind="action" name="backgroundTouched:"/>
+                <relationship kind="action" name="seleccionar_habitacion:"/>
+                <relationship kind="action" name="textFieldreturn:"/>
+                <relationship kind="outlet" name="Aceptar" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="label_habitacion" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="ladultos" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lninos" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="picker_habitacion" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="t_adultos" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="t_apellido" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="t_email" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="t_ninos" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="t_nombre" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="t_telefono" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="ServiciosViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ServiciosViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="scroll" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="UbicacionViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UbicacionViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

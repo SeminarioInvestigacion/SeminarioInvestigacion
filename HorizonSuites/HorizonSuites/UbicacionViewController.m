@@ -154,8 +154,12 @@
 - (void)mapView:(MKMapView *)mv didAddAnnotationViews:(NSArray *)views
 {
     
+    CLLocationCoordinate2D coordenadasHotel;
+    coordenadasHotel    =   CLLocationCoordinate2DMake(14.633316, -90.516629);
     MKCoordinateRegion region;
-    region = MKCoordinateRegionMakeWithDistance(locationManager.location.coordinate,1000,1000);
+    //region = MKCoordinateRegionMakeWithDistance(locationManager.location.coordinate,1000,1000);
+    region = MKCoordinateRegionMakeWithDistance(coordenadasHotel,500,500);
+    
     [mv setRegion:region animated:YES];
 
     

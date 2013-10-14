@@ -30,6 +30,7 @@
 		D2A3769417F63A4400ACB6C9 /* logotipo 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A3768F17F63A4400ACB6C9 /* logotipo 2.png */; };
 		D2A3769717F6496A00ACB6C9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3769617F6496A00ACB6C9 /* HomeViewController.m */; };
 		D2A3769A17F67AEC00ACB6C9 /* ServiciosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3769917F67AEC00ACB6C9 /* ServiciosViewController.m */; };
+		D2E56A8F180BA52200E99F96 /* ReservarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E56A8E180BA52200E99F96 /* ReservarViewController.m */; };
 		D2FFD58317FC79170012D37A /* medico.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57417FC79170012D37A /* medico.jpeg */; };
 		D2FFD58417FC79170012D37A /* seguridad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57517FC79170012D37A /* seguridad.jpeg */; };
 		D2FFD58517FC79170012D37A /* transporte.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57617FC79170012D37A /* transporte.jpeg */; };
@@ -45,9 +46,9 @@
 		D2FFD58F17FC79170012D37A /* bar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD58017FC79170012D37A /* bar.jpeg */; };
 		D2FFD59017FC79170012D37A /* room_Service.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD58117FC79170012D37A /* room_Service.jpeg */; };
 		D2FFD59117FC79170012D37A /* restaurante.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD58217FC79170012D37A /* restaurante.jpeg */; };
-		D2FFD59517FC8D4C0012D37A /* ReservarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD59417FC8D4C0012D37A /* ReservarViewController.m */; };
 		D2FFD5971801ED190012D37A /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD5961801ED190012D37A /* SimpleTableCell.xib */; };
 		D2FFD59A1801F2340012D37A /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD5991801F2340012D37A /* SimpleTableCell.m */; };
+		D2FFD5A3180B1E590012D37A /* FechaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD5A2180B1E580012D37A /* FechaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,8 @@
 		D2A3769617F6496A00ACB6C9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
 		D2A3769817F67AEC00ACB6C9 /* ServiciosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiciosViewController.h; sourceTree = "<group>"; };
 		D2A3769917F67AEC00ACB6C9 /* ServiciosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiciosViewController.m; sourceTree = "<group>"; };
+		D2E56A8D180BA52200E99F96 /* ReservarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReservarViewController.h; path = ../ReservarViewController.h; sourceTree = "<group>"; };
+		D2E56A8E180BA52200E99F96 /* ReservarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReservarViewController.m; path = ../ReservarViewController.m; sourceTree = "<group>"; };
 		D2FFD57417FC79170012D37A /* medico.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medico.jpeg; path = thumbnails/medico.jpeg; sourceTree = "<group>"; };
 		D2FFD57517FC79170012D37A /* seguridad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = seguridad.jpeg; path = thumbnails/seguridad.jpeg; sourceTree = "<group>"; };
 		D2FFD57617FC79170012D37A /* transporte.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = transporte.jpeg; path = thumbnails/transporte.jpeg; sourceTree = "<group>"; };
@@ -98,11 +101,11 @@
 		D2FFD58017FC79170012D37A /* bar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bar.jpeg; path = thumbnails/bar.jpeg; sourceTree = "<group>"; };
 		D2FFD58117FC79170012D37A /* room_Service.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = room_Service.jpeg; path = thumbnails/room_Service.jpeg; sourceTree = "<group>"; };
 		D2FFD58217FC79170012D37A /* restaurante.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = restaurante.jpeg; path = thumbnails/restaurante.jpeg; sourceTree = "<group>"; };
-		D2FFD59317FC8D4C0012D37A /* ReservarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservarViewController.h; sourceTree = "<group>"; };
-		D2FFD59417FC8D4C0012D37A /* ReservarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservarViewController.m; sourceTree = "<group>"; };
 		D2FFD5961801ED190012D37A /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SimpleTableCell.xib; path = ../SimpleTableCell.xib; sourceTree = "<group>"; };
 		D2FFD5981801F2340012D37A /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleTableCell.h; path = ../SimpleTableCell.h; sourceTree = "<group>"; };
 		D2FFD5991801F2340012D37A /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleTableCell.m; path = ../SimpleTableCell.m; sourceTree = "<group>"; };
+		D2FFD5A1180B1E580012D37A /* FechaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FechaViewController.h; sourceTree = "<group>"; };
+		D2FFD5A2180B1E580012D37A /* FechaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FechaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,9 +171,11 @@
 		D2A3766E17F62C8A00ACB6C9 /* HorizonSuites */ = {
 			isa = PBXGroup;
 			children = (
-				D2FFD59317FC8D4C0012D37A /* ReservarViewController.h */,
-				D2FFD59417FC8D4C0012D37A /* ReservarViewController.m */,
+				D2FFD5A1180B1E580012D37A /* FechaViewController.h */,
+				D2FFD5A2180B1E580012D37A /* FechaViewController.m */,
 				D2FFD5981801F2340012D37A /* SimpleTableCell.h */,
+				D2E56A8D180BA52200E99F96 /* ReservarViewController.h */,
+				D2E56A8E180BA52200E99F96 /* ReservarViewController.m */,
 				D2FFD5991801F2340012D37A /* SimpleTableCell.m */,
 				D2FFD5961801ED190012D37A /* SimpleTableCell.xib */,
 				D2A3769517F6496A00ACB6C9 /* HomeViewController.h */,
@@ -323,8 +328,9 @@
 				D2A3769A17F67AEC00ACB6C9 /* ServiciosViewController.m in Sources */,
 				404E8ACB17F7EA1400672F2F /* UbicacionViewController.m in Sources */,
 				402F32DE17F90860002AF8C8 /* MapPoint.m in Sources */,
-				D2FFD59517FC8D4C0012D37A /* ReservarViewController.m in Sources */,
 				D2FFD59A1801F2340012D37A /* SimpleTableCell.m in Sources */,
+				D2FFD5A3180B1E590012D37A /* FechaViewController.m in Sources */,
+				D2E56A8F180BA52200E99F96 /* ReservarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

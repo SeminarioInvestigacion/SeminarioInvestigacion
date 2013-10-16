@@ -31,6 +31,7 @@
 		D2A3769717F6496A00ACB6C9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3769617F6496A00ACB6C9 /* HomeViewController.m */; };
 		D2A3769A17F67AEC00ACB6C9 /* ServiciosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3769917F67AEC00ACB6C9 /* ServiciosViewController.m */; };
 		D2E56A8F180BA52200E99F96 /* ReservarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E56A8E180BA52200E99F96 /* ReservarViewController.m */; };
+		D2E56A92180D0B1D00E99F96 /* Fecha2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E56A91180D0B1D00E99F96 /* Fecha2ViewController.m */; };
 		D2FFD58317FC79170012D37A /* medico.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57417FC79170012D37A /* medico.jpeg */; };
 		D2FFD58417FC79170012D37A /* seguridad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57517FC79170012D37A /* seguridad.jpeg */; };
 		D2FFD58517FC79170012D37A /* transporte.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57617FC79170012D37A /* transporte.jpeg */; };
@@ -86,6 +87,8 @@
 		D2A3769917F67AEC00ACB6C9 /* ServiciosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiciosViewController.m; sourceTree = "<group>"; };
 		D2E56A8D180BA52200E99F96 /* ReservarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReservarViewController.h; path = ../ReservarViewController.h; sourceTree = "<group>"; };
 		D2E56A8E180BA52200E99F96 /* ReservarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReservarViewController.m; path = ../ReservarViewController.m; sourceTree = "<group>"; };
+		D2E56A90180D0B1D00E99F96 /* Fecha2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fecha2ViewController.h; sourceTree = "<group>"; };
+		D2E56A91180D0B1D00E99F96 /* Fecha2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fecha2ViewController.m; sourceTree = "<group>"; };
 		D2FFD57417FC79170012D37A /* medico.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medico.jpeg; path = thumbnails/medico.jpeg; sourceTree = "<group>"; };
 		D2FFD57517FC79170012D37A /* seguridad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = seguridad.jpeg; path = thumbnails/seguridad.jpeg; sourceTree = "<group>"; };
 		D2FFD57617FC79170012D37A /* transporte.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = transporte.jpeg; path = thumbnails/transporte.jpeg; sourceTree = "<group>"; };
@@ -193,6 +196,8 @@
 				404E8ACA17F7EA1400672F2F /* UbicacionViewController.m */,
 				402F32DC17F90860002AF8C8 /* MapPoint.h */,
 				402F32DD17F90860002AF8C8 /* MapPoint.m */,
+				D2E56A90180D0B1D00E99F96 /* Fecha2ViewController.h */,
+				D2E56A91180D0B1D00E99F96 /* Fecha2ViewController.m */,
 			);
 			path = HorizonSuites;
 			sourceTree = "<group>";
@@ -331,6 +336,7 @@
 				D2FFD59A1801F2340012D37A /* SimpleTableCell.m in Sources */,
 				D2FFD5A3180B1E590012D37A /* FechaViewController.m in Sources */,
 				D2E56A8F180BA52200E99F96 /* ReservarViewController.m in Sources */,
+				D2E56A92180D0B1D00E99F96 /* Fecha2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

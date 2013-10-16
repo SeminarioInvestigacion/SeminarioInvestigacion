@@ -14,5 +14,7 @@ NSString *str;
 }
 @property (strong, nonatomic) IBOutlet UILabel *label_checkin;
 @property (nonatomic, strong) NSString *fecha_checkin;
+@property (nonatomic, strong) NSString *fecha_checkout;
+@property (strong, nonatomic) IBOutlet UILabel *label_checkout;
 
 @end

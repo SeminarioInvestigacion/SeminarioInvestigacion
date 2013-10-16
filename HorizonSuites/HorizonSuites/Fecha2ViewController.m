@@ -1,19 +1,19 @@
 //
-//  FechaViewController.m
+//  Fecha2ViewController.m
 //  HorizonSuites
 //
-//  Created by Fernando Archila on 10/13/13.
+//  Created by Fernando Archila on 10/14/13.
 //  Copyright (c) 2013 Fernando Archila. All rights reserved.
 //
 
-#import "FechaViewController.h"
+#import "Fecha2ViewController.h"
 #import "ReservarViewController.h"
 
-@interface FechaViewController ()
+@interface Fecha2ViewController ()
 
 @end
 
-@implementation FechaViewController
+@implementation Fecha2ViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,9 +29,7 @@
     [super viewDidLoad];
     NSDate *now= [NSDate date];
     
-    [_checkin_datepicker setDate:now animated:YES] ;
-    
-	// Do any additional setup after loading the view.
+    [_datepicker_checkout setDate:now animated:YES] ;	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,26 +38,23 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-
-    if ([[segue identifier] isEqualToString:@"pasarfecha_checkin"])
+    
+    if ([[segue identifier] isEqualToString:@"pasarfechacheckout"])
     {
-        NSDate *selected= [_checkin_datepicker date];
+        NSDate *selected= [_datepicker_checkout date];
         
         NSDateFormatter *form = [[NSDateFormatter alloc] init];
         [form setDateFormat:@"MM-dd-YYYY"];
-        NSString *str2 = [form stringFromDate:selected];
-       // NSLog(str);
-        ReservarViewController *destino = [segue destinationViewController];
-        destino.fecha_checkin=str2;
+        NSString *str = [form stringFromDate:selected];
+        NSLog(str);
+        ReservarViewController *destino2 = [segue destinationViewController];
+        destino2.fecha_checkout=str;
         
-     
-       
         
-    
+        
+        
+        
     }
-    
 }
 @end

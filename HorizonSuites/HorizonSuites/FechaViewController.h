@@ -11,6 +11,7 @@
 @interface FechaViewController : ViewController
 
 {NSString *str;
+    NSString *str2;
     
 }
 @property (strong, nonatomic) IBOutlet UIDatePicker *checkin_datepicker;

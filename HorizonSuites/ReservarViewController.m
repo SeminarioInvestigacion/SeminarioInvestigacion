@@ -28,6 +28,7 @@ NSString *str;
 {
     [super viewDidLoad];
     self.label_checkin.text=self.fecha_checkin;
+    self.label_checkout.text= self.fecha_checkout;
 	// Do any additional setup after loading the view.
 }
 

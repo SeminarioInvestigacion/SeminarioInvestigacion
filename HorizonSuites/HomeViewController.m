@@ -69,5 +69,17 @@
 
 - (IBAction)cargar:(id)sender {
   
+  
+}
+
+- (IBAction)fb_button:(id)sender {
+   
+    
+      [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.facebook.com/pages/Holiday-Inn-Zona-10-Guatemala/135752759825855"]];
+}
+
+
+- (IBAction)tw_Button:(id)sender {
+      [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/HolidayInn"]];
 }
 @end

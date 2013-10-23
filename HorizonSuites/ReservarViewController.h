@@ -8,13 +8,19 @@
 
 #import "ViewController.h"
 
-@interface ReservarViewController : ViewController <UIVideoEditorControllerDelegate>
+@interface ReservarViewController : ViewController <UIVideoEditorControllerDelegate,UIAlertViewDelegate>
 {
+    
 NSString *str,*room_type,*str2;
     IBOutlet UIAlertView  *confirmation;
 
     
 }
+extern NSInteger int_room_type;
+extern NSInteger indicador_int_date_checkin;
+extern NSInteger indicador_int_date_checkout;
+extern NSDate *extern_date_in;
+extern NSDate *extern_date_out;
 @property (strong, nonatomic) IBOutlet UILabel *label_checkin;
 - (IBAction)reservar:(id)sender;
 @property (nonatomic, strong) NSString *fecha_checkin;

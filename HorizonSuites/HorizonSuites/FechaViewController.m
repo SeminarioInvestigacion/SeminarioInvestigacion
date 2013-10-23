@@ -54,7 +54,8 @@
        // NSLog(str);
         ReservarViewController *destino = [segue destinationViewController];
         destino.fecha_checkin=str2;
-        
+        extern_date_in=[_checkin_datepicker date];
+        indicador_int_date_checkin=1;
      
        
         

@@ -32,7 +32,7 @@
     self.picker_cuarto.dataSource = self;
     [self.view addSubview:self.picker_cuarto];
     
-    _arrayC= [[NSMutableArray alloc] initWithObjects:@"Simple",@"Doble",@"Suite", nil];
+    _arrayC= [[NSMutableArray alloc] initWithObjects:@"Simple",@"Double",@"Suite", nil];
 
   
 }
@@ -71,16 +71,19 @@
 {
     if (row==0){
         room_type=@"Simple";
+        int_room_type=1;
         
     } if (row==1){
         
        room_type=@"Double";
+       int_room_type=2;
         
     } if (row==2){
         
-       room_type=@"Suite";  
+       room_type=@"Suite";
+   int_room_type=3;
     }
-    NSLog(room_type);
+   // NSLog(room_type);
 }
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component;

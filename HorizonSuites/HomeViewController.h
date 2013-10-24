@@ -15,5 +15,6 @@
 - (IBAction)fb_button:(id)sender;
 @property (strong, nonatomic) IBOutlet UIButton *twitter_button;
 - (IBAction)tw_Button:(id)sender;
+- (IBAction)send_mail:(id)sender;
 
 @end

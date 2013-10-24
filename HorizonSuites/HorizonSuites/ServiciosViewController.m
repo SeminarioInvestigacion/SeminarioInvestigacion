@@ -32,7 +32,7 @@ NSArray *thumbnails;
 {
     [super viewDidLoad];
      tableData = [NSArray arrayWithObjects:
-                  @"Restaurante", @"Room Service", @"Bar", @"Salones de Conferencia", @"Piscina Climatizada", @"Gimnasio", @"Lavanderia", @"Venta de Regalos y Revistas", @"Centro de Negocios e Internet", @"Renta de Autos", @"Agencia de Viajes", @"Intercambio de Dinero", @"Transporte Aereopuerto-Hotel", @"Seguridad  24h", @"Cuidados Medicos y Ambulancia", nil];
+                  @"Restaurant", @"Room Service", @"Bar", @"Meeting Room", @"Pool", @"Gym", @"Laundry", @"Gift Shop & Newstand", @"Business Center", @"Car Rental", @"Travel Agency", @"Money Echange", @"Airpot-Hotel Shuttle", @"24h Security", @"Ambulance & Medical Care", nil];
     
     thumbnails = [NSArray arrayWithObjects:
                  @"restaurante.jpeg", @"room_Service.jpeg", @"bar.jpeg", @"salon.jpeg", @"piscina.jpeg", @"gym.jpeg", @"lavanderia.jpeg", @"regalo.jpeg", @"internet.jpeg", @"autos.jpeg", @"agencia.jpeg", @"intercambio.jpg", @"transporte.jpeg", @"seguridad.jpeg", @"medico.jpeg", nil];

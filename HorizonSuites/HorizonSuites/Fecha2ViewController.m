@@ -50,6 +50,9 @@
         NSLog(str);
         ReservarViewController *destino2 = [segue destinationViewController];
         destino2.fecha_checkout=str;
+        extern_date_out=selected;
+        indicador_int_date_checkout=1;
+        
         
         
         

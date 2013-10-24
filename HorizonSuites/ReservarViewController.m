@@ -7,12 +7,20 @@
 //
 
 #import "ReservarViewController.h"
+#import "HomeViewController.h"
 
 @interface ReservarViewController (){
 
 }
 
 @end
+
+int_room_type = 0;
+indicador_int_date_checkin=0;
+indicador_int_date_checkout=0;
+NSDate *extern_date_in;
+NSDate *extern_date_out;
+
 
 @implementation ReservarViewController
 NSString *str;
@@ -42,7 +50,35 @@ NSString *str;
     self.label_checkout.text=self.fecha_checkout;
     self.label_room.text=self.room_type;
    
-	// Do any additional setup after loading the view.
+	// Do any additional setup after loading thif
+    if (int_room_type==1) {
+        NSLog(@"uno");
+        self.label_room.text=@"Simple";
+        
+    }
+    else if (int_room_type==2){
+    NSLog(@"dos");
+        self.label_room.text=@"Double";
+    }
+else if (int_room_type==3){
+    NSLog(@"tres");
+    self.label_room.text=@"Suite";
+}
+
+
+    if (indicador_int_date_checkin==1) {
+        NSDateFormatter *form = [[NSDateFormatter alloc] init];
+        [form setDateFormat:@"MM-dd-YYYY"];
+        NSString *str2 = [form stringFromDate:extern_date_in];
+        self.label_checkin.text=str2;
+    }
+    if (indicador_int_date_checkout==1) {
+        NSDateFormatter *form = [[NSDateFormatter alloc] init];
+        [form setDateFormat:@"MM-dd-YYYY"];
+        NSString *str2 = [form stringFromDate:extern_date_out];
+        self.label_checkout.text=str2;
+    }
+    
 }
 
 
@@ -74,11 +110,45 @@ NSString *str;
 
 
 
-- (IBAction)reservar:(id)sender {
+- (void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+
+    if (buttonIndex==1) {
+       //confirmada
+        
+        HomeViewController *detalle = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+        [self.navigationController pushViewController: detalle animated:YES];
+    }
+    else if (buttonIndex==0) {
+       //cancelada
+        HomeViewController *detalle = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+        [self.navigationController pushViewController: detalle animated:YES];
+        
+    }
+    else {
     
-    confirmation = [[UIAlertView alloc] initWithTitle:@"Confirmation" message:@"El precio es de $67" delegate:self cancelButtonTitle: @"Cancel" otherButtonTitles:@"Confirm", nil];
+    
+    }
+    
+}
+
+- (IBAction)reservar:(id)sender {
+    int costo;
+    int total;
+    if (int_room_type==1){costo=85;} else if (int_room_type==2){costo=102;} else{costo=125;}
+    
+    
+    NSTimeInterval secondsBetween = [extern_date_out timeIntervalSinceDate:extern_date_in];
+    
+    int numberOfDays = secondsBetween / 86400;
+    total= costo*numberOfDays;
+    
+    //NSLog(@"There are %d days in between the two dates.", numberOfDays);
+    NSString *mensaje=[NSString stringWithFormat: @"Your bill will be $ %d",total];
+    
+    confirmation = [[UIAlertView alloc] initWithTitle:@"Confirmation" message:mensaje delegate:self cancelButtonTitle: @"Cancel" otherButtonTitles:@"Confirm", nil];
 
     [confirmation show];
+    
     
 }
 @end

@@ -32,6 +32,7 @@
 		D2A3769A17F67AEC00ACB6C9 /* ServiciosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3769917F67AEC00ACB6C9 /* ServiciosViewController.m */; };
 		D2E56A8F180BA52200E99F96 /* ReservarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E56A8E180BA52200E99F96 /* ReservarViewController.m */; };
 		D2E56A92180D0B1D00E99F96 /* Fecha2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E56A91180D0B1D00E99F96 /* Fecha2ViewController.m */; };
+		D2E56A95180E651C00E99F96 /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E56A94180E651B00E99F96 /* RoomViewController.m */; };
 		D2FFD58317FC79170012D37A /* medico.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57417FC79170012D37A /* medico.jpeg */; };
 		D2FFD58417FC79170012D37A /* seguridad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57517FC79170012D37A /* seguridad.jpeg */; };
 		D2FFD58517FC79170012D37A /* transporte.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57617FC79170012D37A /* transporte.jpeg */; };
@@ -89,6 +90,8 @@
 		D2E56A8E180BA52200E99F96 /* ReservarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReservarViewController.m; path = ../ReservarViewController.m; sourceTree = "<group>"; };
 		D2E56A90180D0B1D00E99F96 /* Fecha2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fecha2ViewController.h; sourceTree = "<group>"; };
 		D2E56A91180D0B1D00E99F96 /* Fecha2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fecha2ViewController.m; sourceTree = "<group>"; };
+		D2E56A93180E651A00E99F96 /* RoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomViewController.h; sourceTree = "<group>"; };
+		D2E56A94180E651B00E99F96 /* RoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomViewController.m; sourceTree = "<group>"; };
 		D2FFD57417FC79170012D37A /* medico.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medico.jpeg; path = thumbnails/medico.jpeg; sourceTree = "<group>"; };
 		D2FFD57517FC79170012D37A /* seguridad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = seguridad.jpeg; path = thumbnails/seguridad.jpeg; sourceTree = "<group>"; };
 		D2FFD57617FC79170012D37A /* transporte.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = transporte.jpeg; path = thumbnails/transporte.jpeg; sourceTree = "<group>"; };
@@ -198,6 +201,8 @@
 				402F32DD17F90860002AF8C8 /* MapPoint.m */,
 				D2E56A90180D0B1D00E99F96 /* Fecha2ViewController.h */,
 				D2E56A91180D0B1D00E99F96 /* Fecha2ViewController.m */,
+				D2E56A93180E651A00E99F96 /* RoomViewController.h */,
+				D2E56A94180E651B00E99F96 /* RoomViewController.m */,
 			);
 			path = HorizonSuites;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				D2FFD5A3180B1E590012D37A /* FechaViewController.m in Sources */,
 				D2E56A8F180BA52200E99F96 /* ReservarViewController.m in Sources */,
 				D2E56A92180D0B1D00E99F96 /* Fecha2ViewController.m in Sources */,
+				D2E56A95180E651C00E99F96 /* RoomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

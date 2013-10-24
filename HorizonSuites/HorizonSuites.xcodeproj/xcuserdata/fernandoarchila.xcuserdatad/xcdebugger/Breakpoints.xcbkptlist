@@ -43,11 +43,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ReservarViewController.m"
-         timestampString = "403508673.862627"
+         timestampString = "404024986.639069"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "45"
-         endingLineNumber = "45">
+         startingLineNumber = "88"
+         endingLineNumber = "88">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
